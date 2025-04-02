@@ -1,0 +1,62 @@
+.navbar-nav {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.sticky {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky !important;
+    z-index: 9999;
+    top: 0;
+}
+
+@media(max-width :576px) {
+    .socialmedia {
+        width: 3rem;
+        height: auto;
+    }
+
+    .hero h3 {
+        font-size: smaller;
+    }
+
+    .hero h3 {
+        font-size:x-small;
+    }
+
+    .hireme {
+        width: 4rem;
+    }
+
+    #img-aboutme {
+        width: 40%;
+        height: auto;
+    }
+
+    .highlights {
+        display: none;
+    }  
+}
+
+@media(max-width:992px)
+{
+    .socialmedia {
+        width: 4rem;
+        height: auto;
+    }
+}
+
+@media(max-width:733px)
+{
+    #projects .col{
+        justify-items: center;
+    }
+}
+

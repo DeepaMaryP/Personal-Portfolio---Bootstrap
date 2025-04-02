@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Aspiring Software Developer">
+    <meta name="author" content="DeepaMaryP">
+
+    <link rel="shortcut icon" href="/Assets/myIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Added Logo -->
+                        <nav class="navbar navbar-light">
+                            <a class="navbar-brand" href="#">
+                                <img src="/Assets/Logo1.png" width="30" height="auto" alt="Logo">
+                            </a>
+                        </nav>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-end align-items-center"
+                            id="navbarNavAltMarkup">
+                            <div class="navbar-nav fs-6 fw-bold">
+                                <a class="nav-item nav-link active text-primary" href="#home">Home</a>
+                                <a class="nav-item nav-link" href="#about-me">About</a>
+                                <a class="nav-item nav-link" href="#projects">Services</a>
+                                <a class="nav-item nav-link" href="/contactform.html">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid ">
+            <div class="row">
+                <!-- First column - Social Media Links  -->
+                <div class="col-1 d-flex sticky">
+                    <div class="socialmedia d-flex sticky flex-column justify-content-center align-items-center">
+                        <img src="/Assets/icons-linkedin.png" class="w-50 w-lg-50 m-2" height="auto" alt="LinkedIn" />
+                        <img src="/Assets/icons-insta.png" class="w-50 m-2" height="auto" alt="Instagram" />
+                        <img src="/Assets/icons-facebook.png"class="w-50 m-2" height="auto"  alt="Facebook" />
+                    </div>
+                </div>
+                <div class="col-11 d-flex">
+                    <section id="main">
+                        <div class="container-fluid">
+                            <div class="row bg-light">
+                                <!--Additional Container to keep the position relative for highlights-->
+                                <div class="container position-relative"> 
+                                    <div class="row" id="hero"> <!-- Hero  -->
+                                        <div class="col align-self-center">
+                                            <div class="text-center align-self-center">
+                                                <h5 class="text-primary">Hello,</h5>
+                                                <h3>I am Deepa Mary P</h3>
+                                                <h6>Software Developer | Social Worker</h6>
+                                                <a class="hireme btn btn-primary rounded-pill h-sm-25 w-sm-25 mt-2-md" href="/contactform.html">HIRE</a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img src="/Assets/Portfolio.png" width="55%" height="auto" alt="DeepaMaryP">
+                                        </div>
+                                    </div>
+        
+                                    <div class="row "> <!-- Highlights  -->
+                                        <div class="container-fluid highlights m-sm-3 p-sm-3 position-md-absolute top-100 start-md-50 translate-md-middle">
+                                            <div class="row border border-secondary rounded-pill bg-white p-3">
+                                                <div class="col-sm-12 col-md-4 align-self-center">
+                                                    <div class="job-experience justify-content-center d-flex ">
+                                                        <img src="/Assets/job-experience.png" width="10%" height="10%"
+                                                            class="align-self-center" alt="Job Experience">
+                                                        <div class="work-exp ms-1">
+                                                            <h6 class="mb-0">Software Development</h6>
+                                                            <p>8 Years of Experience</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4 align-self-center">
+                                                    <div class="ngo d-flex justify-content-center">
+                                                        <img src="/Assets/ngo.png" width="12%" height="10%"
+                                                            class="align-self-center" alt="NGO Experience">
+                                                        <div class="ngowork ms-1">
+                                                            <h6 class="mb-0">Worked with various NGOS</h6>
+                                                            <p>Organized various programs</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4 align-self-center">
+                                                    <div class="content-write d-flex justify-content-center">
+                                                        <img src="/Assets/blog_write.png" width="10%" height="10%"
+                                                            class="align-self-center" alt="Content Writing">
+                                                        <div class="content ms-1">
+                                                            <h6 class="mb-0">Content Writer</h6>
+                                                            <p>Mental Health Awareness</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="row mt-3" id="about-me"> <!-- Section of About Me -->
+                                <div class="col-md-5 d-flex justify-content-center justify-content-md-end">
+                                    <img id="img-aboutme" src="/Assets/Portfolio-2.jpeg" class="align-self-center " width="50%"
+                                        height="auto" alt="Deepa Mary P">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="m-5">
+                                        <h4 class="mt-sm-5 text-center">About Me</h4>
+                                        <p class="text-justify">Results-driven Software Developer with 8 years of
+                                            experience in
+                                            full-stack development,
+                                            specializing in ASP.NET, VB.NET, SQL Server, and AngularJS. Currently
+                                            upskilling in MERN
+                                            stack (MongoDB, Express.js, React.js, Node.js) with certification from
+                                            Illinois Institute of
+                                            Technology. Passionate about IoT, automation, and cloud-based solutions,
+                                            with a strong
+                                            foundation in database management, API development, and deployment
+                                            strategies.
+                                        </p>
+                                        <p class="text-justify">
+                                            Additionally a postgraduate in Social Work from IGNOU, with hands-on
+                                            experience working with
+                                            various
+                                            NGOs, fostering a deep understanding of mental health awareness, social
+                                            responsibility, and
+                                            community engagement
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row"  id="projects"> <!-- Section for Projects -->
+                                <h4 class="text-center mb-4">My Projects</h4>
+                                <div class="col">
+                                    <div class="card shadow" style="width: 18rem;">
+                                        <img src="/Assets/free-project-manicon1.webp" width="50%"
+                                            class="align-self-center" height="auto" alt="ED">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">Exam Developer (ED)</h5>
+                                            <p class="card-text">This solution is owned by Pearson VUE. ExamDeveloper
+                                                software helps
+                                                reduce or
+                                                eliminate the
+                                                need
+                                                for in-person meetings and streamlines the development process to save
+                                                time and
+                                                money while
+                                                developing high-stakes assessments</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item h6 align-self-center">Skills - Asp.Net,
+                                                SqlServer, Jquery</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card shadow " style="width: 18rem;">
+                                        <img src="/Assets/school.png" width="50%" class="align-self-center" alt="SMS">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">School Management System (SMS)</h5>
+                                            <p class="card-text">SMS is designed to manage the administration of school
+                                                functionalities.
+                                                It is also
+                                                provided
+                                                with
+                                                a secured platform to perform payment transaction. This will provide a
+                                                gateway for
+                                                school
+                                                management system to use this as official app for doing all transactions
+                                            </p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item h6 align-self-center">Skills - Asp.Net, CSS,
+                                                Javascript, HTML 5.0
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card shadow" style="width: 18rem;">
+                                        <img src="/Assets/apx.avif" width="50%" class="align-self-center" alt="HIS">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">Apex Enterprise HIS</h5>
+                                            <p class="card-text">HIS is a distributed application for handling all
+                                                hospital related
+                                                activities starting
+                                                from
+                                                patient
+                                                registration to dispatching the reports. The product is designed in such
+                                                a way that
+                                                it can
+                                                handle Stand-alone hospitals systems as well as Enterprise hospital
+                                                chains.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item h6 align-self-center">
+                                                Skills - Vb.Net, Sql Server, vb6.0</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>       
+    </main>
+    <footer>
+        <p class="fs-6 text-muted">Thank You for visiting my profile</p>
+    </footer>
+</body>
+
+</html>

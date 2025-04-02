@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <meta name="description" content="Contact Me">
+    <meta name="author" content="DeepaMaryP">
+    <link rel="shortcut icon" href="/Assets/myIcon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Added Logo -->
+                        <nav class="navbar navbar-light">
+                            <a class="navbar-brand" href="#">
+                                <img src="/Assets/Logo1.png" width="30" height="auto" alt="Logo">
+                            </a>  
+                            <h4 class="navbar-brand mb-0 h1">Contact Form</h4>                               
+                        </nav> 
+                        <!-- <h4 class=" text-primary">Contact Form</h4>                                  -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-end align-items-center"
+                            id="navbarNavAltMarkup">
+                            <div class="navbar-nav fs-6 fw-bold">                                
+                                <a class="nav-item nav-link active text-primary" href="/index.html">Home</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row bg-light">
+              <div class="col">
+                <form>                 
+                    <div class="form-group  m-2">
+                        <label class="text-primary" for="name">Name</label>
+                        <input type="text" class="form-control" id="name" maxlength="50" required placeholder="User Name">                     
+                    </div>
+                    <div class="form-group m-2">
+                        <label class="text-primary" for="mobNo">MobileNumber</label>                       
+                        <input type="number" class="form-control" id="mobNo" name="mobNo" required min="0" max="999999999999"
+                        placeholder="Mobile Number">                     
+                    </div>
+                    <div class="form-group  m-2">
+                        <label class="text-primary" for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group  m-2">
+                        <label class="text-primary" for="subject">Subject</label>
+                        <textarea name="subject" class="form-control" id="subject" rows="10" maxlength="300" required
+                        placeholder="Subject"></textarea>
+                    </div>
+                   
+                    <div class="buttons m-4">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Cancel</button>
+                    </div>                   
+                </form>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="fs-6 text-muted text-center">Thank You for visiting my profile</p>
+    </footer>
+</body>
+</html>
